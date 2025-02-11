@@ -39,6 +39,19 @@ body{
     background-color: black;
 }
 
+.col_left_top{
+    height: 12%;
+
+}
+
+.col_left_height{
+    height: 76%;
+}
+
+.col_left_bottom{
+    height: 12%;
+}
+
 .big_logo{
     display: none;
 }
@@ -70,6 +83,62 @@ body{
 .playlists{
     display: none;
 }
+
+.profile{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    padding: 6px; 
+}
+
+.profile > a{
+    width: 44px;
+    margin-right: 10px;
+    padding: 0 4px;
+}
+
+.profile > h3{
+    color: #5b5b5b; 
+    font-size: 22px;   
+    font-weight: 500;
+    display: none;
+}
+
+hr{
+    display: none;
+    margin: 0 auto;
+    width: 90%;
+    color: #9a9a9a;
+    margin-bottom: 20px;
+}
+
+.profile_2{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    padding: 2px;
+}
+
+.profile_2 > a{
+    width: 44px;
+    margin-right: 10px;
+    padding:0 4px;
+}
+
+.profile_2 > h3{
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    display: none;
+}
+
+.img_profile{
+    background-color: #656565;
+    border-radius: 50%;
+}
+
 
 /* /struttura colonna sinistra */
 
@@ -114,7 +183,7 @@ body{
     }
 
     .logo{
-        padding: 20px 60px 20px 20px;
+        padding: 30px 60px 30px 30px;
     }
 
     .small_logo{
@@ -189,7 +258,19 @@ body{
         list-style: none;
 
     }
+
+    .profile > h3{
+        display: contents;
+    }
+
+    hr{
+        display: block;
+    }
     
+    .profile_2 > h3{
+        display: contents;
+    }
+
     .col_right{
     width: calc(100% - 455px);
     height: 100%;
