@@ -5,6 +5,7 @@
     padding: 0;
     margin: 0;
     font-family: "Montserrat", serif;
+    /* border: 1px solid red; */
 }
 
 body{
@@ -36,6 +37,38 @@ body{
     width: 60px;
     height: 100%;
     background-color: black;
+}
+
+.big_logo{
+    display: none;
+}
+
+.logo{
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.menu{
+    color: #5b5b5b;
+    padding: 10px;
+}
+
+.icons{
+    padding: 4px;
+}
+
+.menu a{
+    margin-right: 10px;
+}
+
+.menu h3{
+    font-size: 28px;
+    font-weight: 600;
+    display: none;
+}
+
+.playlists{
+    display: none;
 }
 
 /* /struttura colonna sinistra */
@@ -70,15 +103,96 @@ body{
 
 /* sezione responsive */
 
-@media screen and (min-width:768px){
-    body{
-        background-color: red;
-    }
-}
+/* @media screen and (min-width:768px){} */
 
 @media screen and (min-width:992px){
-    body{
-        background-color: blue;
+
+    .col_left{
+        width: 455px;
+        height: 100%;
+        background-color: black;
+    }
+
+    .logo{
+        padding: 20px 60px 20px 20px;
+    }
+
+    .small_logo{
+        display: none;
+    }
+
+    .big_logo{
+        display: block;
+    }
+
+    .menu{
+        flex-direction: column;
+        margin-bottom: 60px;
+    }
+
+    .menu a{
+        width: 50px;
+    }
+
+    .menu h3{
+        display: contents;
+        color: #858585;
+        font-weight: 500;
+    }
+
+    .icons{
+        display: flex;
+        align-items: center;
+    }
+
+    .playlists{
+        color: white;
+        display: block;
+    }
+
+    .playlists > h2{
+        margin-left: 15px;
+        margin-bottom: 10px;
+    }
+
+    .new_playlist{
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    .add_button{
+        margin: 15px;
+        width: 80px;
+        height: 80px;
+        background-color: #858585;
+        border: 0;
+    }
+
+    .add_button > h4{
+        font-size: 50px;
+    }
+
+    .new_playlist > h3{
+        font-size: 26px;
+        font-weight: 500;
+        color: #858585;
+
+    }
+
+    .playlists > ul{
+        font-weight: 500;
+        font-size: 26px;
+        color: #858585;
+        line-height: 3.5rem;
+        margin-left: 15px;
+        list-style: none;
+
+    }
+    
+    .col_right{
+    width: calc(100% - 455px);
+    height: 100%;
     }
 }
 
