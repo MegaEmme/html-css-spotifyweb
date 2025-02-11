@@ -7,7 +7,21 @@
     font-family: "Montserrat", serif;
 }
 
+body{
+    height: 100vh;
+    background-color: #151922;
+}
+
 /* /reset */
+
+#top_box{
+    height: calc(100% - 89px);
+}
+
+#bottom_box{
+    background-color: #282828;
+    height: 89px;
+}
 
 
 

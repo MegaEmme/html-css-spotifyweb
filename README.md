@@ -18,8 +18,6 @@ Requisiti:
 5. Prestare attenzione ai commit.
 6. Fornire un README dettagliato.
 
-#### Approccio Mobile first
+#### Approccio: Mobile first
 
-##### Font
-
- Montserrat
+##### Font: Montserrat
