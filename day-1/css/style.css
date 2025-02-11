@@ -33,7 +33,7 @@ body{
 /* struttura colonna sinistra */
 
 .col_left{
-    width: 10vw;
+    width: 60px;
     height: 100%;
     background-color: black;
 }
@@ -44,15 +44,27 @@ body{
 /* struttura colonna destra */
 
 .col_right{
-    width: 90vw;
+    width: calc(100% - 60px);
     height: 100%;
-    /* background-color: blue; */
 }
+
+    /* header */
 
 .header{
     height: 100px;
     background-color: #10151b;
 }
+
+    /* /header */
+
+    /* main */
+
+.main{
+    height: calc(100% - 100px);
+}
+
+    /* /main */
+
 /* /struttura colonna destra */
 
 
