@@ -70,6 +70,10 @@ body{
     padding: 4px;
 }
 
+.home{
+    border-left: 2px solid #b5f84a;
+}
+
 .menu a{
     margin-right: 10px;
 }
@@ -138,7 +142,6 @@ hr{
     background-color: #656565;
     border-radius: 50%;
 }
-
 
 /* /struttura colonna sinistra */
 
