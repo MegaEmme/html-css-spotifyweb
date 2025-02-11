@@ -15,12 +15,12 @@ body{
 /* /reset */
 
 #top_box{
-    height: calc(100% - 89px);
+    height: calc(100% - 100px);
 }
 
 #bottom_box{
     background-color: #282828;
-    height: 89px;
+    height: 100px;
 }
 
 
