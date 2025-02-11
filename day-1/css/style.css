@@ -9,10 +9,20 @@
 
 /* /reset */
 
-/* .montserrat{
-    font-family: "Montserrat", serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-  }
-   */
+
+
+/* sezione responsive */
+
+@media screen and (min-width:768px){
+    body{
+        background-color: red;
+    }
+}
+
+@media screen and (min-width:992px){
+    body{
+        background-color: blue;
+    }
+}
+
+/* /sezione responsive */
