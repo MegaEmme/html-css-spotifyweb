@@ -18,6 +18,11 @@ Requisiti:
 5. Prestare attenzione ai commit.
 6. Fornire un README dettagliato.
 
+### Day 2 - Obiettivi
+
+1. Revisione del lavoro su day-1
+2. Sviluppare il contenuto principale in tutte le sue parti;
+
 #### Approccio: Mobile first
 
 ##### Font: Montserrat
