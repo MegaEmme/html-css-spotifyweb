@@ -34,22 +34,12 @@ body{
 /* struttura colonna sinistra */
 
 .col_left{
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
     flex-shrink: 0;
     height: 100%;
     background-color: black;
-}
-
-.col_left_top{
-    height: 12%;
-
-}
-
-.col_left_height{
-    height: 74%;
-}
-
-.col_left_bottom{
-    height: 12%;
 }
 
 .big_logo{
@@ -94,6 +84,10 @@ body{
 
 .playlists{
     display: none;
+}
+
+.col_left_bottom{
+    margin-top: auto;
 }
 
 .profile{
@@ -189,7 +183,7 @@ hr{
 @media screen and (min-width:992px){
 
     .col_left{
-        width: 230px;
+        width: 455px;
         height: 100%;
         background-color: black;
     }
@@ -239,19 +233,20 @@ hr{
     .new_playlist{
         display: flex;
         align-items: center;
-        margin-bottom: 15px;
+        margin: 10px;
     }
 
     .add_button{
-        margin: 15px;
-        width: 80px;
-        height: 80px;
+        margin: 10px;
+        width: 84px;
+        height: 88px;
         background-color: #858585;
         border: 0;
     }
 
     .add_button > h4{
-        font-size: 50px;
+        font-family: "Montserrat", serif;
+        font-size: 60px;
     }
 
     .new_playlist > h3{
@@ -283,9 +278,6 @@ hr{
         display: contents;
     }
 
-    .col_right{
-    height: 100%;
-    }
 }
 
 /* /sezione responsive */
