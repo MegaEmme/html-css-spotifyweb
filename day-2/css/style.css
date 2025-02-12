@@ -1,0 +1,287 @@
+/* reset */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", serif;
+    /* border: 1px solid red; */
+}
+
+body{
+    height: 100vh;
+    background-color: #151922;
+}
+
+/* /reset */
+
+
+/* macrostruttura top e bottom */
+
+#top_box{
+    display: flex;
+    height: calc(100% - 90px);
+}
+
+#bottom_box{
+    background-color: #282828;
+    height: 90px;
+}
+
+/* /macrostruttura top e bottom */
+
+
+/* struttura colonna sinistra */
+
+.col_left{
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    height: 100%;
+    background-color: black;
+}
+
+.big_logo{
+    display: none;
+}
+
+.logo{
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.menu{
+    color: #5b5b5b;
+}
+
+.icons{
+    padding: 15px;
+}
+
+.home{
+    border-left: 2px solid #b5f84a;
+}
+
+.search:hover{
+    border-left: 2px solid #b5f84a;    
+}
+
+.library:hover{
+    border-left: 2px solid #b5f84a;    
+}
+
+.menu a{
+    margin-right: 10px;
+    opacity: 0.5;
+}
+
+.menu h3{
+    font-size: 28px;
+    font-weight: 600;
+    display: none;
+}
+
+.playlists{
+    display: none;
+}
+
+.col_left_bottom{
+    margin-top: auto;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    padding: 6px; 
+}
+
+.profile > a{
+    width: 44px;
+    margin-right: 10px;
+    padding: 0 4px;
+    opacity: 0.5;
+}
+
+.profile > h3{
+    color: #5b5b5b; 
+    font-size: 22px;   
+    font-weight: 500;
+    display: none;
+}
+
+hr{
+    display: none;
+    margin: 0 auto;
+    width: 90%;
+    color: #9a9a9a;
+    margin-bottom: 20px;
+}
+
+.profile_2{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    padding: 2px;
+}
+
+.profile_2 > a{
+    width: 44px;
+    margin-right: 10px;
+    padding:0 4px;
+}
+
+.profile_2 > h3{
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    display: none;
+}
+
+.img_profile{
+    background-color: #656565;
+    border-radius: 50%;
+}
+
+/* /struttura colonna sinistra */
+
+
+/* struttura colonna destra */
+
+.col_right{
+    flex-grow: 1;
+    height: 100%;
+}
+
+    /* header */
+
+.header{
+    height: 90px;
+    background-color: #10151b;
+}
+
+    /* /header */
+
+    /* main */
+
+.main{
+    height: calc(100% - 90px);
+}
+
+    /* /main */
+
+/* /struttura colonna destra */
+
+
+/* sezione responsive */
+
+/* @media screen and (min-width:768px){} */
+
+@media screen and (min-width:992px){
+
+    .col_left{
+        width: 230px;
+        height: 100%;
+        background-color: black;
+    }
+
+    .logo{
+        padding-right: 40px;
+    }
+
+    .small_logo{
+        display: none;
+    }
+
+    .big_logo{
+        display: block;
+    }
+
+    .menu{
+        flex-direction: column;
+        margin-bottom: 60px;
+    }
+
+    .menu a{
+        width: 50px;
+    }
+
+    .menu h3{
+        display: contents;
+        color: #858585;
+        font-weight: 500;
+    }
+
+    .icons{
+        display: flex;
+        align-items: center;
+    }
+
+    .playlists{
+        color: white;
+        display: block;
+    }
+
+    .playlists > h2{
+        margin-left: 15px;
+        margin-bottom: 10px;
+    }
+
+    .new_playlist{
+        display: flex;
+        align-items: center;
+        margin: 10px;
+    }
+
+    .add_button{
+        margin: 10px;
+        width: 84px;
+        height: 88px;
+        background-color: #858585;
+        border: 0;
+    }
+
+    .add_button > h4{
+        font-family: "Montserrat", serif;
+        font-size: 60px;
+    }
+
+    .new_playlist > h3{
+        font-size: 26px;
+        font-weight: 500;
+        color: #858585;
+
+    }
+
+    .playlists > ul{
+        font-weight: 500;
+        font-size: 26px;
+        color: #858585;
+        line-height: 3.5rem;
+        margin-left: 15px;
+        list-style: none;
+
+    }
+
+    .profile > h3{
+        display: contents;
+    }
+
+    hr{
+        display: block;
+    }
+    
+    .profile_2 > h3{
+        display: contents;
+    }
+
+    .col_right{
+        width: calc(100% - 230px);
+    }
+
+}
+
+/* /sezione responsive */
