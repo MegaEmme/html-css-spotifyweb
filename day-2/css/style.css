@@ -209,7 +209,7 @@ hr{
 .main > h2{
     color: white;
     font-size: 24px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     margin-left: 20px;
 }
 
@@ -241,6 +241,16 @@ hr{
     text-align: center;
 }
 
+main h5{
+    color: #7b7e82;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
+
+.round{
+    border-radius: 50%;
+}
     /* /main */
 
 
