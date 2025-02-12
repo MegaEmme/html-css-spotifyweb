@@ -175,6 +175,7 @@ hr{
 
     /* /header */
 
+
     /* main */
 
 .main{
@@ -182,12 +183,26 @@ hr{
     overflow: auto;
 }
 
-.prova{
-    margin-top: 90px;
-    height: 1500px;
+.nav{
+    margin-top: 110px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
 }
 
+.nav > button{
+    background-color: transparent;
+    color: #66696e ;
+    border: none;
+    font-weight: 700;
+    padding-bottom: 4px;
+    /* border-bottom: 2px solid #adff2f; */
+}
+
+
     /* /main */
+
 
 /* /struttura colonna destra */
 
@@ -305,8 +320,6 @@ hr{
     #button_upgrade{
         margin-right: 250px;
     }
-
-
 
 }
 
