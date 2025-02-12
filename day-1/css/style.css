@@ -34,7 +34,7 @@ body{
 /* struttura colonna sinistra */
 
 .col_left{
-    width: 60px;
+    flex-shrink: 0;
     height: 100%;
     background-color: black;
 }
@@ -45,7 +45,7 @@ body{
 }
 
 .col_left_height{
-    height: 76%;
+    height: 74%;
 }
 
 .col_left_bottom{
@@ -66,7 +66,7 @@ body{
 }
 
 .icons{
-    padding: 10px;
+    padding: 15px;
 }
 
 .home{
@@ -158,14 +158,14 @@ hr{
 /* struttura colonna destra */
 
 .col_right{
-    width: calc(100% - 60px);
+    flex-grow: 1;
     height: 100%;
 }
 
     /* header */
 
 .header{
-    height: 100px;
+    height: 90px;
     background-color: #10151b;
 }
 
@@ -174,7 +174,7 @@ hr{
     /* main */
 
 .main{
-    height: calc(100% - 100px);
+    height: calc(100% - 90px);
 }
 
     /* /main */
@@ -284,7 +284,6 @@ hr{
     }
 
     .col_right{
-    width: calc(100% - 230px);
     height: 100%;
     }
 }
