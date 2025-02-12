@@ -34,6 +34,7 @@ body{
 /* struttura colonna sinistra */
 
 .col_left{
+    width: 50px;
     overflow: auto;
     display: flex;
     flex-direction: column;
@@ -47,12 +48,16 @@ body{
 }
 
 .logo{
-    padding: 15px;
+    padding: 12px;
     margin-bottom: 10px;
 }
 
 .menu{
     color: #5b5b5b;
+}
+
+.icons{
+    padding:0 8px;
 }
 
 .home{
@@ -69,7 +74,6 @@ body{
 
 .menu a{
     opacity: 0.5;
-    padding: 8px;
 }
 
 .menu h3{
@@ -83,28 +87,27 @@ body{
 }
 
 .col_left_bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     margin-top: auto;
 }
 
 .profile{
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
-    margin-left: 5px;
-    padding: 6px; 
 }
 
 .profile > a{
-    width: 44px;
-    margin-right: 10px;
-    padding: 0 4px;
+    width: 30px;
+    margin: 12px 10px 8px 8px;
     opacity: 0.5;
 }
 
 .profile > h3{
     color: #5b5b5b; 
-    font-size: 22px;   
-    font-weight: 500;
+    font-size: 16px;   
+    font-weight: 600;
     display: none;
 }
 
@@ -113,27 +116,25 @@ hr{
     margin: 0 auto;
     width: 90%;
     color: #9a9a9a;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .profile_2{
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
-    margin-left: 10px;
-    padding: 2px;
+    margin: 0 10px 20px 10px;
 }
 
 .profile_2 > a{
-    width: 44px;
+    width: 30px;
     margin-right: 10px;
     padding:0 4px;
 }
 
 .profile_2 > h3{
     color: white;
-    font-size: 22px;
-    font-weight: 500;
+    font-size: 14px;
+    font-weight: 400;
     display: none;
 }
 
@@ -198,17 +199,18 @@ hr{
 
     .menu{
         flex-direction: column;
-        margin-bottom: 60px;
+        margin-bottom: 40px;
     }
 
     .menu a{
         width: 50px;
+        padding: 8px;
     }
 
     .menu h3{
         display: contents;
         color: #858585;
-        font-weight: 500;
+        font-weight: 600;
     }
 
     .icons{
@@ -217,46 +219,46 @@ hr{
     }
 
     .playlists{
+        font-size: 10px;
         color: white;
         display: block;
     }
 
     .playlists > h2{
         margin-left: 15px;
-        margin-bottom: 10px;
+        margin-bottom: 15px;
     }
 
     .new_playlist{
         display: flex;
         align-items: center;
-        margin: 10px;
+        margin:0 15px 20px 15px;
     }
 
     .add_button{
-        margin: 10px;
-        width: 84px;
-        height: 88px;
+        margin-right: 10px;
+        width: 50px;
+        height: 50px;
         background-color: #858585;
         border: 0;
     }
 
     .add_button > h4{
         font-family: "Montserrat", serif;
-        font-size: 60px;
+        font-size: 30px;
     }
 
     .new_playlist > h3{
-        font-size: 26px;
-        font-weight: 500;
+        font-size: 16px;
+        font-weight: 600;
         color: #858585;
-
     }
 
     .playlists > ul{
-        font-weight: 500;
-        font-size: 26px;
+        font-weight: 600;
+        font-size: 16px;
         color: #858585;
-        line-height: 3.5rem;
+        line-height: 2rem;
         margin-left: 15px;
         list-style: none;
 
