@@ -20,12 +20,12 @@ body{
 
 #top_box{
     display: flex;
-    height: calc(100% - 100px);
+    height: calc(100% - 90px);
 }
 
 #bottom_box{
     background-color: #282828;
-    height: 100px;
+    height: 90px;
 }
 
 /* /macrostruttura top e bottom */
