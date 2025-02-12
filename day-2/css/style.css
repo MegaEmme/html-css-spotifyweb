@@ -64,8 +64,12 @@ body{
     border-left: 4px solid #b5f84a;    
 }
 
-.home:hover{
-    border-left: 4px solid #b5f84a;
+.search{
+    border-left: 4px solid transparent;
+}
+
+.library{
+    border-left: 4px solid transparent;
 }
 
 .search:hover{
