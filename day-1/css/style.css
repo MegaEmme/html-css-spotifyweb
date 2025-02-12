@@ -63,15 +63,22 @@ body{
 
 .menu{
     color: #5b5b5b;
-    padding: 10px;
 }
 
 .icons{
-    padding: 4px;
+    padding: 10px;
 }
 
 .home{
     border-left: 2px solid #b5f84a;
+}
+
+.search:hover{
+    border-left: 2px solid #b5f84a;    
+}
+
+.library:hover{
+    border-left: 2px solid #b5f84a;    
 }
 
 .menu a{
