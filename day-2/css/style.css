@@ -55,10 +55,6 @@ body{
     color: #5b5b5b;
 }
 
-.icons{
-    padding: 15px;
-}
-
 .home{
     border-left: 2px solid #b5f84a;
 }
@@ -72,12 +68,12 @@ body{
 }
 
 .menu a{
-    margin-right: 10px;
     opacity: 0.5;
+    padding: 8px;
 }
 
 .menu h3{
-    font-size: 28px;
+    font-size: 16px;
     font-weight: 600;
     display: none;
 }
