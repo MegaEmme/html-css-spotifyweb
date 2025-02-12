@@ -236,7 +236,7 @@ hr{
 
     .menu{
         flex-direction: column;
-        margin-bottom: 40px;
+        margin-bottom: 10px;
     }
 
     .menu a{
@@ -269,13 +269,13 @@ hr{
     .new_playlist{
         display: flex;
         align-items: center;
-        margin:0 15px 20px 15px;
+        margin:0 15px 10px 15px;
     }
 
     .add_button{
         margin-right: 10px;
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
         background-color: #858585;
         border: 0;
     }
@@ -295,7 +295,7 @@ hr{
         font-weight: 600;
         font-size: 16px;
         color: #858585;
-        line-height: 2rem;
+        line-height: 2.5rem;
         margin-left: 15px;
         list-style: none;
 
