@@ -173,9 +173,26 @@ hr{
 /* /struttura colonna destra */
 
 
+
 /* sezione responsive */
 
-/* @media screen and (min-width:768px){} */
+
+
+/* schermo small 576px - 768px */
+
+@media screen and (min-width:576px){}
+
+/* /schermo small 576px - 768px */
+
+
+/* schermo medium 768px - 992px */
+
+@media screen and (min-width:768px){}
+
+/* /schermo medium 768px - 992px */
+
+
+/* schermo large > 992px */
 
 @media screen and (min-width:992px){
 
@@ -281,5 +298,9 @@ hr{
     }
 
 }
+
+/* /schermo large > 992px */
+
+
 
 /* /sezione responsive */
