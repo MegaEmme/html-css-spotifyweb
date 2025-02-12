@@ -183,13 +183,13 @@ hr{
 @media screen and (min-width:992px){
 
     .col_left{
-        width: 455px;
+        width: 230px;
         height: 100%;
         background-color: black;
     }
 
     .logo{
-        padding: 30px 60px 30px 30px;
+        padding-right: 40px;
     }
 
     .small_logo{
@@ -276,6 +276,10 @@ hr{
     
     .profile_2 > h3{
         display: contents;
+    }
+
+    .col_right{
+        width: calc(100% - 230px);
     }
 
 }
