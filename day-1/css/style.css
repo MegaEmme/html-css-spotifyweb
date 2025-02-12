@@ -76,6 +76,7 @@ body{
 
 .menu a{
     margin-right: 10px;
+    opacity: 0.5;
 }
 
 .menu h3{
@@ -100,6 +101,7 @@ body{
     width: 44px;
     margin-right: 10px;
     padding: 0 4px;
+    opacity: 0.5;
 }
 
 .profile > h3{
