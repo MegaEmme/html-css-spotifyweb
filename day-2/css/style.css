@@ -5,7 +5,7 @@
     padding: 0;
     margin: 0;
     font-family: "Montserrat", serif;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 body{
@@ -57,31 +57,32 @@ body{
 
 .icons{
     padding:0 8px;
+    border: none;
 }
 
 .home{
-    border-left: 2px solid #b5f84a;    
+    border-left: 4px solid #b5f84a;    
 }
 
 .home:hover{
-    border-left: 2px solid #b5f84a;
+    border-left: 4px solid #b5f84a;
 }
 
 .search:hover{
-    border-left: 2px solid #b5f84a;    
+    border-left: 4px solid #b5f84a;    
 }
 
 .library:hover{
-    border-left: 2px solid #b5f84a;    
+    border-left: 4px solid #b5f84a;    
 }
 
-.menu a{
-    opacity: 0.5;
+.search , .library{
+    opacity: 0.8;
 }
 
 .menu h3{
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 700;
     display: none;
 }
 
@@ -207,9 +208,38 @@ hr{
 
 .main > h2{
     color: white;
-    margin-bottom: 30px;
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-left: 20px;
 }
 
+.main > section{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 5px 30px 5px;
+
+}
+
+.folder{
+    padding: 15px;
+    width: calc(100% / 2);
+}
+
+.folder > img{
+    max-width: 100%;
+}
+
+.folder > h3{
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.folder > h4{
+    color: #7b7e82;
+    text-align: center;
+}
 
     /* /main */
 
@@ -257,7 +287,7 @@ hr{
     .menu h3{
         display: contents;
         color: #858585;
-        font-weight: 600;
+        font-weight: 700;
     }
 
     .icons{
@@ -338,14 +368,25 @@ hr{
 
 /* schermo medium 768px - 992px */
 
-@media screen and (min-width:768px){}
+@media screen and (min-width:768px){
+    .folder{
+        padding: 15px;
+        width: calc(100% / 4);
+    }
+}
 
 /* /schermo medium 768px - 992px */
 
 
 /* schermo large > 992px */
 
-@media screen and (min-width:992px){}
+@media screen and (min-width:992px){
+    .folder{
+        padding: 15px;
+        width: calc(100% / 6);
+    }
+    
+}
 
 /* /schermo large > 992px */
 
