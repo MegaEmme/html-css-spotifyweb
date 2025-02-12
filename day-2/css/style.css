@@ -197,13 +197,26 @@ hr{
     margin-bottom: 40px;
 }
 
-.nav > button{
+.nav button{
     background-color: transparent;
     color: #66696e ;
     border: none;
     font-weight: 700;
     padding-bottom: 4px;
-    /* border-bottom: 2px solid #adff2f; */
+    margin-bottom: 4px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar:hover .bb_green{
+    background-color:#adff2f;    
+    width: 30%;
+    height: 2px;
+    align-self: center;
+    margin-bottom: -2px;
 }
 
 .main > h2{
