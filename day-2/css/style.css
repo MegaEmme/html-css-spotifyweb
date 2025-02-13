@@ -258,22 +258,22 @@ hr{
     text-align: center;
 }
 
-.folder2{
+.folder_play{
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.folder2 > i{
+.folder_play > i{
     font-size: 4rem;
     color: white;
-    opacity: 0.5;
+    opacity: 0.8;
     position: absolute;
     display: none;
 }
 
-.folder2:hover i{
+.folder_play:hover i{
     display: block;
 }
 
