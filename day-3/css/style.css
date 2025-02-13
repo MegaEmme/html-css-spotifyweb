@@ -183,6 +183,10 @@ hr{
     background-color: transparent;
 }
 
+#button_upgrade:hover{
+    font-size: larger;
+}
+
     /* /header */
 
 
@@ -214,6 +218,10 @@ hr{
 .navbar{
     display: flex;
     flex-direction: column;
+}
+
+.navbar > button:hover{
+    color: white;
 }
 
 .navbar:hover .bb_green{
@@ -427,10 +435,6 @@ main h5{
 
     .col_right{
         width: calc(100% - 230px);
-    }
-
-    .navbar > button:hover{
-        color: white;
     }
 
 }
