@@ -464,13 +464,13 @@ main h5{
     width: 100%;
 }
 
-.bar:hover #circle{
+.bar:hover .circle{
     height: 12px;
     width: 12px;
     background-color: white;
 }
 
-.volume_bar:hover #circle{
+.volume_bar:hover .circle{
     height: 12px;
     width: 12px;
     background-color: white;
@@ -565,9 +565,10 @@ main h5{
         border: 0;
     }
 
-    .add_button > h4{
+    .add_button > span{
         font-family: "Montserrat", serif;
         font-size: 30px;
+        font-weight: 600;
     }
 
     .new_playlist > h3{
