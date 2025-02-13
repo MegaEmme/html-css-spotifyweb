@@ -242,7 +242,7 @@ hr{
     width: calc(100% / 2);
 }
 
-.folder > img{
+.folder img{
     max-width: 100%;
 }
 
@@ -256,6 +256,25 @@ hr{
 .folder > h4{
     color: #7b7e82;
     text-align: center;
+}
+
+.folder2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.folder2 > i{
+    font-size: 4rem;
+    color: white;
+    opacity: 0.5;
+    position: absolute;
+    display: none;
+}
+
+.folder2:hover i{
+    display: block;
 }
 
 main h5{
