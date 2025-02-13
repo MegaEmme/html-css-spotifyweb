@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- aggiunti link di stile -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- /aggiunti link di stile -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+</head>
+
+<body>
+
+    <!-- sidebar & contenuto pricipale -->
+
+    <div id="top_box">
+
+        <!-- sidebar -->
+
+        <div class="col_left">
+
+            <div class="col_left_top">
+
+                <div class="logo">
+
+                    <a class="small_logo" href="https://www.google.com"><img src="../img/logo-small.svg"
+                            alt="logo_small"></a>
+
+                    <a class="big_logo" href="https://www.google.com"><img src="../img/logo.svg" alt="logo"></a>
+
+                </div>
+
+                <div class="menu">
+
+                    <div class="icons home">
+
+                        <a href="https://www.google.com">
+
+                            <img src="../img/home.svg" alt="home">
+
+                        </a>
+
+                        <h3>Home</h3>
+
+                    </div>
+
+                    <div class="icons search">
+
+                        <a href="https://www.google.com">
+
+                            <img src="../img/search.svg" alt="search">
+
+                        </a>
+
+                        <h3>Cerca</h3>
+
+                    </div>
+
+                    <div class="icons library">
+
+                        <a href="https://www.google.com">
+
+                            <img src="../img/libreria.svg" alt="library">
+
+                        </a>
+
+                        <h3>La tua libreria</h3>
+
+                    </div>
+
+                </div>      
+               
+                <div class="playlists">
+
+                    <h2>PLAYLISTS</h2>
+
+                    <div class="new_playlist">
+
+                        <button class="add_button">
+                            <h4>+</h4>
+                        </button>
+
+                        <h3>Crea Playlist</h3>
+
+                    </div>
+
+                    <ul>
+                        <li>Brani che ti piacciono</li>
+                        <li>Hey Wanna Play?</li>
+                        <li>Scalettz</li>
+                        <li>Maybe</li>
+                        <li>I miei brani di Shazam</li>
+                    </ul>
+
+                </div>
+
+            </div>
+            
+            <div class="col_left_bottom">
+
+                <div class="profile">
+
+                    <a href="https://www.google.com">
+                        <img src="../img/download.svg" alt="download_app">
+                    </a>
+                    <h3>Installa App</h3>
+
+                </div>
+
+                <hr>
+
+                <div class="profile_2">
+
+                    <a href="https://www.google.com">
+                        <img class="img_profile" src="../img/profile.svg" alt="download_app">
+                    </a>
+                    <h3>Michelangelo Musco</h3>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- /sidebar -->
+
+        
+        <!-- contenuto principale -->
+     
+        <div class="col_right">
+
+        <!-- header -->
+
+            <header class="header">
+
+                <button id="button_upgrade">EFFETTUA L'UPGRADE</button>
+
+            </header>
+
+        <!-- /header -->
+
+
+        <!-- main -->
+
+
+            <main class="main">
+
+                <nav class="nav">
+
+                    <div class="navbar">
+
+                        <button>IN EVIDENZA</button>
+                        <div class="bb_green"></div>
+
+                    </div>
+
+                    <div class="navbar">
+
+                        <button>PODCAST</button>
+                        <div class="bb_green"></div>
+
+                    </div>
+
+                    <div class="navbar">
+
+                        <button>CLASSIFICHE</button>
+                        <div class="bb_green"></div>
+
+                    </div>
+
+                    <div class="navbar">
+
+                        <button>GENERI E MOOD</button>
+                        <div class="bb_green"></div>
+
+                    </div>
+
+                    <div class="navbar">
+
+                        <button>NUOVE USCITE</button>
+                        <div class="bb_green"></div>
+
+                    </div>
+
+                    <div class="navbar">
+
+                        <button>SCOPRI</button>
+                        <div class="bb_green"></div>
+
+                    </div>
+
+                </nav>
+
+                <h2>Recently played</h2>
+
+                <section class="recently_played">
+
+                    <div class="folder">
+
+                        <div class="folder_play">
+                                
+                            <img src="../img/metal_lifting.jpg" alt="Heavy_Metal">
+                            <i class="fa-regular fa-circle-play"></i>
+
+                        </div>
+
+                        <h3>Heavy Metal</h3>
+
+                        <h4>Subtitle</h4>                        
+
+                    </div>
+
+                    <div class="folder">
+
+                        <div class="folder_play">
+
+                            <img src="../img/stranger.jpeg" alt="Stranger_Things_OST">
+                            <i class="fa-regular fa-circle-play"></i>
+
+                        </div>
+
+                        <h3>Stranger Things, Vol.1 (A Netflix Original Series Soundtrack)</h3>
+                        <h4>Kyle Dixon & Michael Stein</h4>
+
+                    </div>
+
+                    <div class="folder">
+
+                        <div class="folder_play">
+
+                            <img src="../img/aquietplace.jpeg" alt="A_Quiet_Place_OST">
+                            <i class="fa-regular fa-circle-play"></i>
+
+                        </div>
+
+                        <h3>A quiet place</h3>
+                        <h4>Subtitle</h4>
+
+                    </div>
+
+                    <div class="folder">
+
+                        <div class="folder_play">
+
+                            <img src="../img/split.jpeg" alt="Split_OST">
+                            <i class="fa-regular fa-circle-play"></i>
+
+                        </div>
+
+                        <h3>Split</h3>
+                        <h4>Subtitle</h4>
+
+                    </div>
+
+                    <div class="folder">
+
+                        <div class="folder_play">
+
+                            <img src="../img/cure.jpeg" alt="A_Cure_For_Wellness_OST">
+                            <i class="fa-regular fa-circle-play"></i>
+
+                        </div>
+
+                        <h3>A cure for wellness</h3>
+                        <h4>Subtitle</h4>
+
+                    </div>
+
+                    <div class="folder">
+
+                        <div class="folder_play">
+
+                            <img src="../img/sinister.jpeg" alt="Sinister_OST">
+                            <i class="fa-regular fa-circle-play"></i>
+
+                        </div>
+
+                        <h3>Sinister</h3>
+                        <h4>Subtitle</h4>
+
+                    </div>
+
+                </section>
+
+                <h2>Creato per Michelangelo Musco</h2>
+                <h5>Più ascolti, più accurati saranno i suggerimenti.</h5>
+
+                <section class="created_for_you">
+
+                    <div class="folder">
+
+                        <div class="folder_play">
+
+                            <img src="../img/radar.jpeg" alt="Release_Radar">
+                            <i class="fa-regular fa-circle-play"></i>
+
+                        </div>
+
+                        <h3>Release Radar</h3>
+
+                    </div>
+
+                    <div class="folder">
+
+                        <div class="folder_play">
+
+                            <img src="../img/mixdaily.jpeg" alt="Mix_Daily">
+                            <i class="fa-regular fa-circle-play"></i>
+    
+
+                        </div>
+
+                        <h3>Daily Mix 1</h3>
+
+                    </div>
+
+                </section>
+
+                <h2>Artisti più popolari</h2>
+                <h5>Più ascolti, più accurati saranno i suggerimenti.</h5>
+                
+                <section class="most_viewed">
+
+                    <div class="folder">
+
+                        <div class="folder_play">
+
+                            <img class="round" src="../img/youg.jpeg" alt="Lana_Del_Rey">
+                            <i class="fa-regular fa-circle-play"></i>
+
+                        </div>
+
+                        <h3>Lana Del Rey</h3>
+                        <h4>Subtitle</h4>
+
+                    </div>
+
+                    <div class="folder">
+
+                        <div class="folder_play">
+
+                            <img class="round" src="../img/einaudi.jpeg" alt="Ludovico_Einaudi">
+                            <i class="fa-regular fa-circle-play"></i>
+
+                        </div>
+
+                        <h3>Ludovico Einaudi</h3>
+                        <h4>Subtitle</h4>
+
+                    </div>
+
+                </section>
+
+            </main>
+
+        <!-- /main -->
+
+        </div>
+
+        <!-- /contenuto principale -->
+
+    </div>    
+
+    <!-- /sidebar & contenuto pricipale -->
+
+    <!-- footer -->
+
+    <div id="bottom_box"></div>
+
+    <!-- /footer -->
+
+</body>
+
+</html>
