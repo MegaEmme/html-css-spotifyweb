@@ -25,7 +25,9 @@ L'esercizio sar√† suddiviso in task specifici da completare giorno per giorno. √
 ### Day 3 - Obiettivi
 
 1.Revisione del lavoro su day-2;
+
 2.Sviluppare il footer in tutte le sue parti;
+
 3.Completare il progetto con le animazioni e gli effetti.
 
 #### Approccio: Mobile first
