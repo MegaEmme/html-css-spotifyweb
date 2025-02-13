@@ -424,6 +424,8 @@ main h5{
 }
 
 .bar{
+    display: flex;
+    align-items: center;
     flex-grow: 4;
     height: 4px;
     background-color: #7f7f7f;
@@ -435,6 +437,10 @@ main h5{
     background-color: #c1c1c1;
     border-radius: 15px;
     width: 20%;
+}
+
+.internal_bar:hover{
+    background-color: #b5f84a;
 }
 
 .bottom_right{
@@ -449,12 +455,30 @@ main h5{
 }
 
 .volume_bar{
+    display: flex;
+    align-items: center;
     margin: 0 10px;
     height: 4px;
     background-color: #7f7f7f;
     border-radius: 15px;
     width: 100%;
 }
+
+.bar:hover #circle{
+    height: 12px;
+    width: 12px;
+    background-color: white;
+}
+
+.volume_bar:hover #circle{
+    height: 12px;
+    width: 12px;
+    background-color: white;
+}
+
+
+
+
 
 
 
@@ -600,6 +624,10 @@ main h5{
 
     .bottom_center{
         margin: 0;
+    }
+
+    .bottom_right{
+        margin-left: 40px;
     }
 
 
