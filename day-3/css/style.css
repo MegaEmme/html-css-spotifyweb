@@ -5,7 +5,7 @@
     padding: 0;
     margin: 0;
     font-family: "Montserrat", serif;
-    border: 1px solid red; 
+    /* border: 1px solid red;  */
 }
 
 body{
@@ -25,7 +25,6 @@ body{
 
 #bottom_box{
     background-color: #282828;
-    height: 90px;
     display: flex;
 }
 
@@ -320,16 +319,67 @@ main h5{
     /* footer */
 
 #bottom_box > div{
-    height: 100%;
     width: calc(100% / 4);
 }
 
-.playback_bar{
+.bottom_center{
     flex-grow: 1;
 }
 
-.track_info , .volume_bar{
+.bottom_left , .bottom_right{
     flex-shrink: 0;
+}
+
+.track_info{
+    margin: 28px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.track_info img{
+    max-width: 100%;
+    height: 30px;
+    width: 30px;
+}
+
+.track{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.track > h3{
+    color: white;
+    font-size: 10px;
+}
+
+.track > h4{
+    color: #7f7f7f;
+    font-size: 8px;
+}
+
+.track > h4:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.folder_favourite_icons{
+    display: flex;
+    flex-direction: column;
+    color:#7f7f7f ;
+    margin-left: 25px;
+}
+
+.fa-heart{
+    margin-bottom: 6px;
+}
+
+.fa-folder:hover{
+    color: white;
+}
+
+.fa-heart:hover{
+    color: white;
 }
 
     /* /footer */
@@ -468,8 +518,10 @@ main h5{
     }
 
     #bottom_box > div{
-        width: calc(100% / 3.3);
+        width: calc(100% / 3.2);
     }
+
+
 
 }
 
@@ -483,6 +535,14 @@ main h5{
     .folder{
         padding: 15px;
         width: calc(100% / 4);
+    }
+
+    .folder_favourite_icons{
+        flex-direction: row;
+    }
+
+    .fa-heart{
+        margin-right: 10px;
     }
 
 }
