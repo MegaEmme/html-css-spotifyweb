@@ -5,7 +5,7 @@
     padding: 0;
     margin: 0;
     font-family: "Montserrat", serif;
-    /* border: 1px solid red;  */
+    border: 1px solid red; 
 }
 
 body{
@@ -26,6 +26,7 @@ body{
 #bottom_box{
     background-color: #282828;
     height: 90px;
+    display: flex;
 }
 
 /************ /macrostruttura top e bottom *************/
@@ -249,7 +250,7 @@ hr{
 }
 
 .folder{
-    padding: 15px;
+    padding: 8px;
     width: calc(100% / 2);
 }
 
@@ -315,6 +316,23 @@ main h5{
 
 /**************** macrostruttura bottom ****************/
 
+
+    /* footer */
+
+#bottom_box > div{
+    height: 100%;
+    width: calc(100% / 4);
+}
+
+.playback_bar{
+    flex-grow: 1;
+}
+
+.track_info , .volume_bar{
+    flex-shrink: 0;
+}
+
+    /* /footer */
 
 
 /**************** /macrostruttura bottom ***************/
