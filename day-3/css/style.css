@@ -193,7 +193,7 @@ hr{
     /* main */
 
 .main{
-    height: calc(100% - 90px);
+    height: 100%;
     overflow: auto;
 }
 
