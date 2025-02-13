@@ -10,18 +10,23 @@ L'esercizio sar√† suddiviso in task specifici da completare giorno per giorno. √
 
 ### Day 1 - Obiettivi
 
-1. Creare la struttura principale in HTML.
-2. Sviluppare la colonna di sinistra in tutte le sue parti.
-Requisiti:
-3. Assicurare una struttura solida e responsive per mobile, tablet e desktop.
-4. Scrivere codice ordinato e ben commentato.
-5. Prestare attenzione ai commit.
+1. Creare la struttura principale in HTML;
+2. Sviluppare la colonna di sinistra in tutte le sue parti;
+3. Assicurare una struttura solida e responsive per mobile, tablet e desktop;
+4. Scrivere codice ordinato e ben commentato;
+5. Prestare attenzione ai commit;
 6. Fornire un README dettagliato.
 
 ### Day 2 - Obiettivi
 
-1. Revisione del lavoro su day-1
-2. Sviluppare il contenuto principale in tutte le sue parti;
+1. Revisione del lavoro su day-1;
+2. Sviluppare il contenuto principale in tutte le sue parti.
+
+### Day 3 - Obiettivi
+
+1.Revisione del lavoro su day-2;
+2.Sviluppare il footer in tutte le sue parti;
+3.Completare il progetto con le animazioni e gli effetti.
 
 #### Approccio: Mobile first
 
