@@ -467,6 +467,10 @@ main h5{
         width: calc(100% - 230px);
     }
 
+    #bottom_box > div{
+        width: calc(100% / 3.3);
+    }
+
 }
 
     /* /schermo small 576px - 768px */
@@ -480,6 +484,7 @@ main h5{
         padding: 15px;
         width: calc(100% / 4);
     }
+
 }
 
     /* /schermo medium 768px - 992px */
@@ -493,7 +498,11 @@ main h5{
         padding: 15px;
         width: calc(100% / 6);
     }
-    
+
+    #bottom_box > div{
+        width: calc(100% / 4);
+    }
+
 }
 
     /* /schermo large > 992px */
