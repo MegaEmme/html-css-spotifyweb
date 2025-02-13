@@ -1,4 +1,4 @@
-/* reset */
+/********************  reset *************************/
 
 *{
     box-sizing: border-box;
@@ -13,10 +13,10 @@ body{
     background-color: #151922;
 }
 
-/* /reset */
+/********************* /reset ************************/
 
 
-/* macrostruttura top e bottom */
+/*********** macrostruttura top e bottom ***************/
 
 #top_box{
     display: flex;
@@ -28,10 +28,12 @@ body{
     height: 90px;
 }
 
-/* /macrostruttura top e bottom */
+/************ /macrostruttura top e bottom *************/
 
 
-/* struttura colonna sinistra */
+/************ macrostruttura top **************/
+
+    /* struttura colonna sinistra */
 
 .col_left{
     width: 50px;
@@ -151,10 +153,10 @@ hr{
     border-radius: 50%;
 }
 
-/* /struttura colonna sinistra */
+    /* /struttura colonna sinistra */
 
 
-/* struttura colonna destra */
+    /* struttura colonna destra */
 
 .col_right{
     width: calc(100% - 50px);
@@ -305,15 +307,24 @@ main h5{
     /* /main */
 
 
-/* /struttura colonna destra */
+    /* /struttura colonna destra */
+
+
+/***************** /macrostruttura top *****************/
+
+
+/**************** macrostruttura bottom ****************/
 
 
 
-/* sezione responsive */
+/**************** /macrostruttura bottom ***************/
 
 
 
-/* schermo small 576px - 768px */
+/***************** sezione responsive ******************/
+
+
+    /* schermo small 576px - 768px */
 
 @media screen and (min-width:576px){
 
@@ -440,10 +451,10 @@ main h5{
 
 }
 
-/* /schermo small 576px - 768px */
+    /* /schermo small 576px - 768px */
 
 
-/* schermo medium 768px - 992px */
+    /* schermo medium 768px - 992px */
 
 @media screen and (min-width:768px){
 
@@ -453,10 +464,10 @@ main h5{
     }
 }
 
-/* /schermo medium 768px - 992px */
+    /* /schermo medium 768px - 992px */
 
 
-/* schermo large > 992px */
+    /* schermo large > 992px */
 
 @media screen and (min-width:992px){
 
@@ -467,8 +478,7 @@ main h5{
     
 }
 
-/* /schermo large > 992px */
+    /* /schermo large > 992px */
 
 
-
-/* /sezione responsive */
+/**************** /sezione responsive *******************/
